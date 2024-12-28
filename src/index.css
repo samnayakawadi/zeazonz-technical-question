@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-cols-31 {
+  grid-template-columns: repeat(31, minmax(40px, 1fr));
+}
